@@ -2,7 +2,7 @@
 Use this library to simplify how you use the built-in buttons and LEDs on the MSP430FR6989 board. 
 
 
-Include msp430BuiltInIO.h/.c in your msp430 project and simplify how you use the built-in IO.
+Include msp430BuiltInIO.h and msp430BuiltInIO.c in your msp430 project and simplify how you use the built-in IO.
 
 ## Setup
 
