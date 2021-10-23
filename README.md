@@ -15,12 +15,12 @@ control the built-in LEDs.
 ## Read input from buttons:
 
 ```
-readButton1();
+BUTTON_STATE input1 = readButton1();
 ```
 ```
-readButton2();
+BUTTON_STATE input2 = readButton2();
 ```
-These both return a BUTTON_STATE enum value - either PRESSED or NOT_PRESSED.
+The returned BUTTON_STATE enum value is either PRESSED or NOT_PRESSED.
 
 ## Use ON or OFF to control LEDs: 
 
